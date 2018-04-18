@@ -26,7 +26,7 @@ Onedrive Directory Index
 18-04-16: README.md 支持，解析各目录下(onedirive目录下) README.md 文件，在页面尾部展示。  
 18-04-18: 音频在线播放  
 18-04-18: HEAD.md 支持，在页面头部展示   
-18-04-18: .password 文件夹加密  
+18-04-18: dir.password 文件夹加密  
 
 ## 需求：
 1、PHP空间，PHP 5.6+ 打开curl支持  
@@ -49,7 +49,7 @@ Onedrive Directory Index
 ```
 
 ## 特殊文件实现功能  
-` README.md `、`HEAD.md` 、 `.password`特殊文件使用  
+` README.md `、`HEAD.md` 、 `dir.password`特殊文件使用  
 
 **在文件夹底部添加说明:**  
 >在onedrive的文件夹中添加` README.md `文件，使用markdown语法。  
@@ -58,7 +58,7 @@ Onedrive Directory Index
 >在onedrive的文件夹中添加`HEAD.md` 文件，使用markdown语法。  
 
 **加密文件夹:**  
->在onedrive的文件夹中添加`.password`文件，填入密码，密码不能为空。  
+>在onedrive的文件夹中添加`dir.password`文件，填入密码，密码不能为空。  
 
 ## 命令行功能  
 仅能在php cli模式下运行  
